@@ -1,0 +1,22 @@
+{
+    "name": "spacemacs",
+    "displayName": "spacemacs",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "cometeer",
+    "engines": {
+        "vscode": "^1.12.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Spacemacs",
+                "uiTheme": "vs",
+                "path": "./themes/Spacemacs-color-theme.json"
+            }
+        ]
+    }
+}
