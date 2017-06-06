@@ -1,6 +1,6 @@
 {
   "name": "spacemacs",
-  "displayName": "spacemacs",
+  "displayName": "Spacemacs",
   "description": "",
   "version": "0.0.1",
   "publisher": "cometeer",
@@ -19,7 +19,7 @@
       },
       {
         "label": "Spacemacs - dark",
-        "uiTheme": "vs",
+        "uiTheme": "vs-dark",
         "path": "./themes/Spacemacs-dark-color-theme.json"
       }
     ]

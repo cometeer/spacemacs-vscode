@@ -1,6 +1,8 @@
 {
   "name": "Spacemacs - dark",
   "colors": {
+    "debugToolBar.background": "#0a0814",
+
     "activityBar.background": "#212026",
     "activityBar.foreground": "#cbc1d5",
 
@@ -31,6 +33,17 @@
 
     "editorLineNumber.foreground": "#5d4d7a",
 
+    "list.activeSelectionBackground": "#100a14",
+    "list.activeSelectionForeground": "#b2b2b2",
+    "list.dropBackground": "#100a14",
+    "list.focusBackground": "#100a14",
+    "list.highlightForeground": "#686868",
+    "list.hoverBackground": "#100a14",
+    "list.inactiveSelectionBackground": "#212026",
+
+    "notification.background": "#34323e",
+    "notification.foreground": "#5e5079",
+
     "sideBar.background": "#292b2e",
     "sideBarSectionHeader.background": "#212026",
     "sideBarTitle.foreground": "#cbc1d5",
@@ -51,22 +64,24 @@
     "tab.inactiveBackground": "#212026",
     "tab.inactiveForeground": "#a094a2",
 
-    "terminal.ansiBlack": "#100a14",
+    "terminal.ansiBlack": "#b2b2b2",
     "terminal.ansiBlue": "#3a81c3",
-    "terminal.ansiBrightBlack": "#262626",
+    "terminal.ansiBrightBlack": "#b2b2b2",
     "terminal.ansiBrightBlue": "#d7dfff",
     "terminal.ansiBrightCyan": "#28def0",
     "terminal.ansiBrightGreen": "#86dc2f",
     "terminal.ansiBrightMagenta": "#a31db1",
     "terminal.ansiBrightRed": "#f2241f",
-    "terminal.ansiBrightWhite": "#100a14",
+    "terminal.ansiBrightWhite": "#b2b2b2",
     "terminal.ansiBrightYellow": "#b1951d",
     "terminal.ansiCyan": "#21b8c7",
     "terminal.ansiGreen": "#67b11d",
     "terminal.ansiMagenta": "#800080",
     "terminal.ansiRed": "#ba2f59",
-    "terminal.ansiWhite": "#100a14",
-    "terminal.ansiYellow": "#b1951d"
+    "terminal.ansiWhite": "#b2b2b2",
+    "terminal.ansiYellow": "#b1951d",
+
+    "widget.shadow": "#5d4d7a"
   },
   "tokenColors": [
     {
@@ -152,7 +167,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": ""
+        "foreground": "#4f97d7"
       }
     },
     {

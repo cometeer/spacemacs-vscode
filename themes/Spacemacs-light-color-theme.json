@@ -31,6 +31,14 @@
 
     "editorLineNumber.foreground": "#b3b9be",
 
+    "list.activeSelectionBackground": "#d2ceda",
+    "list.activeSelectionForeground": "#655370",
+    "list.dropBackground": "#d2ceda",
+    "list.focusBackground": "#d2ceda",
+    "list.highlightForeground": "#655370",
+    "list.hoverBackground": "#efeae9",
+    "list.inactiveSelectionBackground": "#efeae9",
+
     "sideBar.background": "#fbf8ef",
     "sideBarSectionHeader.background": "#efeae9",
     "sideBarTitle.foreground": "#655370",
