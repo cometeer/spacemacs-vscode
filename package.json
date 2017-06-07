@@ -2,7 +2,7 @@
     "name": "spacemacs",
     "displayName": "Spacemacs",
     "description": "Spacemacs themes for Visual Studio Code",
-    "version": "0.5.0",
+    "version": "0.5.1",
     "publisher": "cometeer",
     "engines": {
         "vscode": "^1.12.0"
