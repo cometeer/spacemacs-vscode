@@ -1,27 +1,43 @@
 {
-  "name": "spacemacs",
-  "displayName": "Spacemacs",
-  "description": "",
-  "version": "0.0.1",
-  "publisher": "cometeer",
-  "engines": {
-    "vscode": "^1.12.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Spacemacs - light",
-        "uiTheme": "vs",
-        "path": "./themes/Spacemacs-light-color-theme.json"
-      },
-      {
-        "label": "Spacemacs - dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Spacemacs-dark-color-theme.json"
-      }
-    ]
-  }
+    "name": "spacemacs",
+    "displayName": "Spacemacs",
+    "description": "Spacemacs themes for Visual Studio Code",
+    "version": "0.2.0",
+    "publisher": "cometeer",
+    "engines": {
+        "vscode": "^1.12.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Spacemacs - light",
+                "uiTheme": "vs",
+                "path": "./themes/Spacemacs-light-color-theme.json"
+            },
+            {
+                "label": "Spacemacs - dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Spacemacs-dark-color-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cometeer/spacemacs-vscode.git"
+    },
+    "keywords": [
+        "vs-code",
+        "theme",
+        "spacemacs"
+    ],
+    "author": "cometeer",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/cometeer/spacemacs-vscode/issues"
+    },
+    "homepage": "https://github.com/cometeer/spacemacs-vscode#readme",
+    "icon": "https://github.com/cometeer/spacemacs-vscode/blob/master/assets/icon.svg?raw=true"
 }
