@@ -1,6 +1,9 @@
 {
   "name": "Spacemacs - light",
   "colors": {
+    "editorBracketMatch.background": "#ddd8eb",
+    "editorBracketMatch.border": "#9380b2",
+
     "activityBar.background": "#efeae9",
     "activityBar.foreground": "#655370",
 
@@ -160,7 +163,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": ""
+        "foreground": "#3a81c3"
       }
     },
     {
@@ -168,7 +171,7 @@
       "scope": "entity.other.inherited-class",
       "settings": {
         "fontStyle": "italic underline",
-        "foreground": "#ddbb88"
+        "foreground": "#3a81c3"
       }
     },
     {
