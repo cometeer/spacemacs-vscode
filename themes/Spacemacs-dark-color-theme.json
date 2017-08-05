@@ -365,9 +365,43 @@
       "scope": [
         "source.cpp storage.type",
         "source.cpp storage.modifier"
-      ], 
+      ],
       "settings": {
         "foreground": "#4f97d7"
+      }
+    },
+    {
+      "name": "Clojure locals",
+      "scope": "source.clojure meta.symbol",
+      "settings": {
+        "foreground": "#cbc1d5ff"
+      }
+    },
+    {
+      "name": "Clojure namespace",
+      "scope": [
+        "source.clojure entity.global",
+        "source.clojure meta.definition.global"
+      ],
+      "settings": {
+        "foreground": "#ce537a"
+      }
+    },
+    {
+      "name": "Clojure keyword",
+      "scope": "source.clojure constant.keyword",
+      "settings": {
+        "foreground": "#9966b8"
+      }
+    },
+    {
+      "name": "Clojure namespace",
+      "scope": [
+        "source.clojure meta.symbol meta.expression",
+        "source.clojure meta.vector"
+      ],
+      "settings": {
+        "foreground": "#ce537a"
       }
     }
   ]
