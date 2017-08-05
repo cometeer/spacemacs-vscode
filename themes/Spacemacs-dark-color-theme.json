@@ -350,6 +350,25 @@
       "settings": {
         "foreground": "#9966b8"
       }
+    },
+    {
+      "name": "C++ Directives",
+      "scope": [
+        "source.cpp keyword.control.directive"
+      ],
+      "settings": {
+        "foreground": "#9966b8"
+      }
+    },
+    {
+      "name": "C++ Keywords",
+      "scope": [
+        "source.cpp storage.type",
+        "source.cpp storage.modifier"
+      ], 
+      "settings": {
+        "foreground": "#4f97d7"
+      }
     }
   ]
 }
