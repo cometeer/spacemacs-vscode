@@ -2,37 +2,26 @@
   "name": "Spacemacs - dark",
   "colors": {
     "debugToolBar.background": "#0a0814",
-
     "activityBar.background": "#212026",
     "activityBar.foreground": "#cbc1d5",
-
     "activityBarBadge.background": "#222226",
     "activityBarBadge.foreground": "#cbc1d5",
-
     "contrastBorder": "#5d4d7a",
-
     "dropdown.background": "#212026",
     "dropdown.border": "#5d4d7a",
     "dropdown.foreground": "#cbc1d5",
-
     "editor.background": "#292b2e",
     "editor.foreground": "#cbc1d5",
     "editor.inactiveSelectionBackground": "#3b314d",
     "editor.lineHighlightBackground": "#212026",
     "editor.selectionBackground": "#5d4d7a",
     "editor.selectionHighlightBackground": "#3b314d",
-
     "editorCursor.foreground": "#e3dedd",
-
     "editorIndentGuide.background": "#212026",
-
     "editorGroup.border": "#5d4d7a",
-
     "editorGroupHeader.noTabsBackground": "#292b2e",
     "editorGroupHeader.tabsBackground": "#292b2e",
-
     "editorLineNumber.foreground": "#5d4d7a",
-
     "list.activeSelectionBackground": "#100a14",
     "list.activeSelectionForeground": "#b2b2b2",
     "list.dropBackground": "#100a14",
@@ -40,30 +29,24 @@
     "list.highlightForeground": "#686868",
     "list.hoverBackground": "#100a14",
     "list.inactiveSelectionBackground": "#212026",
-
     "notification.background": "#34323e",
     "notification.foreground": "#5e5079",
-
     "sideBar.background": "#292b2e",
     "sideBarSectionHeader.background": "#212026",
     "sideBarTitle.foreground": "#cbc1d5",
-
     "statusBar.background": "#222226",
     "statusBar.debuggingBackground": "#5d4d7a",
     "statusBar.foreground": "#cbc1d5",
     "statusBar.noFolderBackground": "#222226",
-
     "statusBarItem.activeBackground": "#827591",
     "statusBarItem.hoverBackground": "#827591",
     "statusBarItem.prominentBackground": "#827591",
     "statusBarItem.prominentHoverBackground": "#827591",
-
     "tab.activeBackground": "#5d4d7a",
     "tab.activeForeground": "#cbc1d5",
     "tab.border": "#5d4d7a",
     "tab.inactiveBackground": "#212026",
     "tab.inactiveForeground": "#a094a2",
-
     "terminal.ansiBlack": "#b2b2b2",
     "terminal.ansiBlue": "#3a81c3",
     "terminal.ansiBrightBlack": "#b2b2b2",
@@ -80,7 +63,6 @@
     "terminal.ansiRed": "#ba2f59",
     "terminal.ansiWhite": "#b2b2b2",
     "terminal.ansiYellow": "#b1951d",
-
     "widget.shadow": "#5d4d7a"
   },
   "tokenColors": [
@@ -174,7 +156,7 @@
       "name": "Inherited class",
       "scope": "entity.other.inherited-class",
       "settings": {
-        "fontStyle": "italic underline",
+        "fontStyle": "italic",
         "foreground": "#bc6ec5"
       }
     },
@@ -305,6 +287,68 @@
       "scope": "markup.heading.setext",
       "settings": {
         "foreground": "#ddbb88"
+      }
+    },
+    {
+      "name": "Source Java Storage Modifier Import",
+      "scope": [
+        "source.java storage.modifier.import",
+        "source.java storage.modifier.package",
+        "source.java entity.name.type.class",
+        "source.java storage.type",
+        "source.java meta.definition.class.implemented.interfaces",
+        "source.java entity.other.inherited-class"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#ce537a"
+      }
+    },
+    {
+      "name": "Java Method Body",
+      "scope": [
+        "meta.method.body.java",
+        "meta.function-call.java"
+      ],
+      "settings": {
+        "foreground": "#cbc1d5ff"
+      }
+    },
+    {
+      "name": "Java Operators",
+      "scope": [
+        "source.java keyword.operator.assignment",
+        "source.java keyword.operator.arithmetic",
+        "source.java storage.type.function.arrow.java",
+        "source.java punctuation.definition.parameters.begin.bracket.round",
+        "source.java punctuation.definition.parameters.end.bracket.round"
+      ],
+      "settings": {
+        "foreground": "#cbc1d5ff"
+      }
+    },
+    {
+      "name": "Java Curly Braces",
+      "scope": [
+        "source.java begin.bracket.curly",
+        "source.java end.bracket.curly"
+      ],
+      "settings": {
+        "foreground": "#4f97d7"
+      }
+    },
+    {
+      "name": "Java Constructor",
+      "scope": "source.java entity.name.function meta",
+      "settings": {
+        "foreground": "#ce537a"
+      }
+    },
+    {
+      "name": "Javadoc keywords",
+      "scope": "source.java keyword.other.documentation.javadoc.java",
+      "settings": {
+        "foreground": "#9966b8"
       }
     }
   ]
