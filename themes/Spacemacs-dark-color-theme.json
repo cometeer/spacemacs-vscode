@@ -1,6 +1,7 @@
 {
   "name": "Spacemacs - dark",
   "colors": {
+    "debugToolBar.background": "#0a0814",
     "activityBar.background": "#212026",
     "activityBar.border": "",
     "activityBar.dropBackground": "",
@@ -16,7 +17,6 @@
     "contrastBorder": "#5d4d7a",
     "debugExceptionWidget.background": "",
     "debugExceptionWidget.border": "",
-    "debugToolBar.background": "#0a0814",
     "descriptionForeground": "",
     "diffEditor.insertedTextBackground": "",
     "diffEditor.insertedTextBorder": "",
@@ -287,7 +287,7 @@
       "scope": "entity.other.inherited-class",
       "settings": {
         "fontStyle": "italic underline",
-        "foreground": "#4f97d7"
+        "foreground": "#bc6ec5"
       }
     },
     {
@@ -417,6 +417,121 @@
       "scope": "markup.heading.setext",
       "settings": {
         "foreground": "#ddbb88"
+      }
+    },
+    {
+      "name": "Source Java Storage Modifier Import",
+      "scope": [
+        "source.java storage.modifier.import",
+        "source.java storage.modifier.package",
+        "source.java entity.name.type.class",
+        "source.java storage.type",
+        "source.java meta.definition.class.implemented.interfaces",
+        "source.java entity.other.inherited-class"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#ce537a"
+      }
+    },
+    {
+      "name": "Java Method Body",
+      "scope": [
+        "meta.method.body.java",
+        "meta.function-call.java"
+      ],
+      "settings": {
+        "foreground": "#cbc1d5ff"
+      }
+    },
+    {
+      "name": "Java Operators",
+      "scope": [
+        "source.java keyword.operator.assignment",
+        "source.java keyword.operator.arithmetic",
+        "source.java storage.type.function.arrow.java",
+        "source.java punctuation.definition.parameters.begin.bracket.round",
+        "source.java punctuation.definition.parameters.end.bracket.round"
+      ],
+      "settings": {
+        "foreground": "#cbc1d5ff"
+      }
+    },
+    {
+      "name": "Java Curly Braces",
+      "scope": [
+        "source.java begin.bracket.curly",
+        "source.java end.bracket.curly"
+      ],
+      "settings": {
+        "foreground": "#4f97d7"
+      }
+    },
+    {
+      "name": "Java Constructor",
+      "scope": "source.java entity.name.function meta",
+      "settings": {
+        "foreground": "#ce537a"
+      }
+    },
+    {
+      "name": "Javadoc keywords",
+      "scope": "source.java keyword.other.documentation.javadoc.java",
+      "settings": {
+        "foreground": "#9966b8"
+      }
+    },
+    {
+      "name": "C++ Directives",
+      "scope": [
+        "source.cpp keyword.control.directive"
+      ],
+      "settings": {
+        "foreground": "#9966b8"
+      }
+    },
+    {
+      "name": "C++ Keywords",
+      "scope": [
+        "source.cpp storage.type",
+        "source.cpp storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#4f97d7"
+      }
+    },
+    {
+      "name": "Clojure locals",
+      "scope": "source.clojure meta.symbol",
+      "settings": {
+        "foreground": "#cbc1d5ff"
+      }
+    },
+    {
+      "name": "Clojure namespace",
+      "scope": [
+        "source.clojure entity.global",
+        "source.clojure meta.definition.global"
+      ],
+      "settings": {
+        "foreground": "#ce537a"
+      }
+    },
+    {
+      "name": "Clojure keyword",
+      "scope": "source.clojure constant.keyword",
+      "settings": {
+        "foreground": "#9966b8"
+      }
+    },
+    {
+      "name": "Clojure namespace",
+      "scope": [
+        "source.clojure meta.symbol meta.expression",
+        "source.clojure meta.vector"
+      ],
+      "settings": {
+        "foreground": "#ce537a"
       }
     }
   ]
