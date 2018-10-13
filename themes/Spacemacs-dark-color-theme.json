@@ -186,6 +186,13 @@
       }
     },
     {
+      "name": "Tag start/end",
+      "scope": "punctuation.definition.tag",
+      "settings": {
+        "foreground": "#2aa1ae"
+      }
+    },
+    {
       "name": "Tag attributes",
       "scope": "entity.other.attribute-name",
       "settings": {
